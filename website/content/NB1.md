@@ -1,7 +1,7 @@
-title: Introduction 
+title: Data Gathering 
 author: Benoit Dherin 
 date: 2014-03-01
-slug: introduction 
+slug: nb1 
 
-{% notebook Introduction.ipynb cells[:] %}
+{% notebook NB1_data_gathering.ipynb cells[:] %}
 
