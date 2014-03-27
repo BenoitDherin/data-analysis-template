@@ -4,8 +4,8 @@ from __future__ import unicode_literals
 import os
 
 AUTHOR = u'Benoit Dherin'
-SITENAME = u"iPython Notebook Scribbles"
-SITESUBTITLE = u''
+SITENAME = u"Data Analysis Project"
+SITESUBTITLE = u'Template using the iPython notebook'
 SITEURL = '' # change in publishconf.py
 
 TIMEZONE = 'US/Pacific'
@@ -34,7 +34,7 @@ DISPLAY_TAGS_ON_SIDEBAR = False
           #('Project Conclusion', 'conclusion'),)
 
 # Social widget
-SOCIAL = (('Github', 'https://github.com/berkeley-stat133'),)
+SOCIAL = (('View on Github', 'https://github.com/BenoitDherin/data-analysis-template'),)
 
 DEFAULT_PAGINATION = 10
 
@@ -50,7 +50,9 @@ PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
             'liquid_tags.include_code', 'liquid_tags.notebook',
             'liquid_tags.literal']
 
-STATIC_PATHS = ['notebooks', 'images', 'files']
+#STATIC_PATHS = ['notebooks', 'images', 'files']
+
+NOTEBOOK_DIR = '../../notebooks'
 
 ## The theme file should be updated so that the base header contains the line:
 ##
