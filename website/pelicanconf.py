@@ -20,8 +20,11 @@ TRANSLATION_FEED_ATOM = None
 ## Title menu options (this isn't necessary, but I wanted to have more control)
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = True
-#MENUITEMS = [('Course Information', 'http://berkeley-stat133.github.io/pages/info.html'),
-             #('Assignments', 'http://berkeley-stat133.github.io/pages/assignments.html'),]
+MENUITEMS = [('Report', 'nb4'),
+             ('Data Analysis', 'nb3'),
+             ('Data Cleaning', 'nb2'),
+             ('Data Gathering', 'nb1'),
+            ]
 
 DISPLAY_TAGS_ON_SIDEBAR = False
 
@@ -32,6 +35,13 @@ DISPLAY_TAGS_ON_SIDEBAR = False
           #('Data Cleaning',  'cleaning'),)
           #('Data Analysis', 'analysis'),)
           #('Project Conclusion', 'conclusion'),)
+
+LINKS = (('Project Report', 'nb4'),
+         ('Data Analysis',  'nb3'),
+         ('Data Cleaning',  'nb2'),
+         ('Data Gathering', 'nb1'),
+        )
+
 
 # Social widget
 SOCIAL = (('View on Github', 'https://github.com/BenoitDherin/data-analysis-template'),)
