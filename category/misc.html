@@ -1790,54 +1790,28 @@ Data Analysis Project            </a>
 
             <article>
                 <h2><a href="http://benoitdherin.github.io/data-analysis-template/nb4.html">Project Report</a></h2>
-                <div class="summary"><p>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>In this notebook, you'll sumarize your finding for the class presentation.</p>
-<p>The class presentation will use this notebook in slide mode, as I do during lecture time.</p>
-<p>You'll need to download the following <a href="https://github.com/fperez/nb-slideshow-template/archive/master.zip">zip file</a>, unzip it, and run the following notebook <code>install-support.ipynb</code> to install the slide ...</p></div></p>
+                <div class="summary"><p>{% notebook NB4_project_report.ipynb cells[:] %}</p>
                     <a class="btn btn-default btn-xs" href="http://benoitdherin.github.io/data-analysis-template/nb4.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
                 <h2><a href="http://benoitdherin.github.io/data-analysis-template/nb3.html">Data Analysis</a></h2>
-                <div class="summary"><p>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>In this notebook, you'll perform the actual analysis of the data stored in the directory</p>
-<pre><code>./data/cleaned</code></pre>
-<p>If the data is not ready yet (e.g. the other members of the team in charge of cleaning the data are not done yet), you may want to simulate cleaned data ...</p></div></p>
+                <div class="summary"><p>{% notebook NB3_data_analysis.ipynb cells[:] %}</p>
                     <a class="btn btn-default btn-xs" href="http://benoitdherin.github.io/data-analysis-template/nb3.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
                 <h2><a href="http://benoitdherin.github.io/data-analysis-template/nb2.html">Data Cleaning</a></h2>
-                <div class="summary"><p>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>In this notebook, you'll</p>
-<ul>
-<li><p><strong>load the raw data into R or Pandas dataframe</strong> from the <code>./data/raw</code> directory using the functions and classes (written during the data gathering phase) in the <code>./script</code> directory</p></li>
-<li><p><strong>perform visual exploration</strong> on your data variables to detect anomalies, errors, outliers, interesting features etc.</p></li>
-<li><p><strong>clean ...</strong></p></li></ul></div></p>
+                <div class="summary"><p>{% notebook NB2_data_cleaning.ipynb cells[:] %}</p>
                     <a class="btn btn-default btn-xs" href="http://benoitdherin.github.io/data-analysis-template/nb2.html">more ...</a>
                 </div>
             </article>
             <hr/>
             <article>
                 <h2><a href="http://benoitdherin.github.io/data-analysis-template/nb1.html">Data Gathering</a></h2>
-                <div class="summary"><p>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>In this notebook, you'll</p>
-<ul>
-<li>create the directory structure for your project</li>
-<li>download the raw data for your project</li>
-<li><strong>write functions and classes to transform raw data (e.g in XML, jason, etc.) into data frames</strong></li>
-<li>explain what your are doing</li>
-</ul>
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="team-members-responsible-for-this-notebook">Team members responsible for this notebook:</h2>
-<p>List the team ...</p></div></p>
+                <div class="summary"><p>{% notebook NB1_data_gathering.ipynb cells[:] %}</p>
                     <a class="btn btn-default btn-xs" href="http://benoitdherin.github.io/data-analysis-template/nb1.html">more ...</a>
                 </div>
             </article>

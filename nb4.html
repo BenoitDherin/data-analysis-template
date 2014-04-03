@@ -1720,7 +1720,7 @@ init_mathjax();
             <meta property="og:type" content="article"/>
             <meta property="og:title" content="Project Report"/>
             <meta property="og:url" content="http://benoitdherin.github.io/data-analysis-template/nb4.html"/>
-            <meta property="og:description" content="In this notebook, you'll sumarize your finding for the class presentation. The class presentation will use this notebook in slide mode, as I do during lecture time. You'll need to download the following zip file, unzip it, and run the following notebook install-support.ipynb to install the slide ..."/>
+            <meta property="og:description" content="{% notebook NB4_project_report.ipynb cells[:] %}"/>
 
     <!-- Bootstrap -->
         <link rel="stylesheet" href="http://benoitdherin.github.io/data-analysis-template/theme/css/bootstrap.min.css" type="text/css"/>
@@ -1813,36 +1813,7 @@ Data Analysis Project            </a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>In this notebook, you'll sumarize your finding for the class presentation.</p>
-<p>The class presentation will use this notebook in slide mode, as I do during lecture time.</p>
-<p>You'll need to download the following <a href="https://github.com/fperez/nb-slideshow-template/archive/master.zip">zip file</a>, unzip it, and run the following notebook <code>install-support.ipynb</code> to install the slide capabilities.</p>
-<p>The notebook <code>notebook-slideshow-example.ipynb</code> will give you examples on how to use slides within the iPython notebook.</p>
-<p>You should also write this notebook so that you can convert it nicely into a pdf document using the commands</p>
-<pre><code>ipython nbconvert NB4_report.pynb --to latex
-pdflatex NB4_report.tex</code></pre>
-<p>See <a href="http://ipython.org/ipython-doc/rel-1.0.0/interactive/nbconvert.html">here</a> for further references on how to do that.</p>
-<p>In this notebook, you'll</p>
-<ul>
-<li><p>describe your problem as stated in the propectus</p></li>
-<li><p>comment on your data sources, on their format, on the difficulties to get them</p></li>
-<li><p>present the main challenge you encountered</p></li>
-<li><p>present your finding in the form of expresive graphics</p></li>
-</ul>
-<p>Be sure to include an introduction section motivating your visualizations, with a description of the substantive context and why it is interesting.</p>
-<p>Cite the source of the data and any other references that you used in carrying out your project.</p>
-</div>
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="team-members-responsible-for-this-notebook">Team members responsible for this notebook:</h2>
-<p>List the team members contributing to this notebook, along with their responsabilities:</p>
-<ul>
-<li>team member 1 <strong>name</strong>: team member 1 <strong>responsabilities</strong></li>
-<li>team member 2 <strong>name</strong>: team member 2 <strong>responsabilities</strong></li>
-<li>etc.</li>
-</ul>
-<p>I advise you to work at least in pairs for each project notebook, as you did for the homework assignments. Of course, all team members may participate to each notebook.</p>
-</div></p>
+                <p>{% notebook NB4_project_report.ipynb cells[:] %}</p>
             </div>
             <!-- /.entry-content -->
         </article>
