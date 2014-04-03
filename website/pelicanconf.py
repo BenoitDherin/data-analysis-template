@@ -3,13 +3,19 @@
 from __future__ import unicode_literals
 import os
 
+###################################################
+# AUTHORSHIP AND WEBSITE INFO (Replace accordingly)
+###################################################
+
 AUTHOR = u'Benoit Dherin'
-SITENAME = u"Data Analysis Project"
+SITENAME = u'Data Analysis Project'
 SITESUBTITLE = u'Template using the iPython notebook'
-SITEURL = '' # change in publishconf.py
+
+###################################################
+# FINER WEBSITE CONF (Defaults should be okay)
+###################################################
 
 TIMEZONE = 'US/Pacific'
-
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
@@ -17,7 +23,7 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
-## Title menu options (this isn't necessary, but I wanted to have more control)
+# Title menu options (this isn't necessary, but I wanted to have more control)
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = True
 MENUITEMS = [('Report', 'nb4'),
@@ -29,13 +35,6 @@ MENUITEMS = [('Report', 'nb4'),
 DISPLAY_TAGS_ON_SIDEBAR = False
 
 # Blogroll
-
-#LINKS =  (('Project Description', 'description'),
-          #('Data Gathering', 'gathering'),)
-          #('Data Cleaning',  'cleaning'),)
-          #('Data Analysis', 'analysis'),)
-          #('Project Conclusion', 'conclusion'),)
-
 LINKS = (('Project Report', 'nb4'),
          ('Data Analysis',  'nb3'),
          ('Data Cleaning',  'nb2'),
@@ -61,7 +60,6 @@ PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
             'liquid_tags.literal']
 
 #STATIC_PATHS = ['notebooks', 'images', 'files']
-
 NOTEBOOK_DIR = '../../notebooks'
 
 ## The theme file should be updated so that the base header contains the line:

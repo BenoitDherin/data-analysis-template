@@ -1,8 +1,14 @@
-#### REPLACE BELOW BY YOUR GITHUB REPOSITORY NAME ####
-
+##################################################################################
+# Replace below with the corresponding info for your fork of the github repository 
+##################################################################################
 GITHUB_REPOSITORY=https://github.com/BenoitDherin/data-analysis-template.git
+##################################################################################
 
-#### WEBSITE GENERATION AND UPLOAD CONFIGURATIONS ####
+
+
+##################################################################################
+# Further configurations (defaults should be okay)
+##################################################################################
 
 PY=python
 PELICAN=pelican
